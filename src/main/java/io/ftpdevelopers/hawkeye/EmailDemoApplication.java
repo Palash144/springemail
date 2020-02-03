@@ -24,7 +24,7 @@ public class EmailDemoApplication implements CommandLineRunner {
 
 	public void sendMail() {
 		SimpleMailMessage message = new SimpleMailMessage();
-		message.setTo("palash144@gmail.com");
+		message.setTo("jessica.gupta711@gmail.com");
 		//message.setFrom("shalini@jc.com");
 		message.setSubject("Welcome!!");
 		message.setText("Hello Friends chai peelo");
