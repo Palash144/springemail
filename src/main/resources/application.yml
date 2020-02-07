@@ -1,8 +1,8 @@
 spring:
   mail:
-    host: smtp.gmail.com
-    username: palash145@gmail.com
-    password: Palash23321
+    host: outlook.office365.com
+    username: palash.lambhate@dxc.com
+    password: Car.pot-70
     port: 587
     protocol: smtp
     test-connection: false
