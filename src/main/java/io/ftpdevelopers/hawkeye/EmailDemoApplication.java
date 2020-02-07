@@ -24,10 +24,10 @@ public class EmailDemoApplication implements CommandLineRunner {
 
 	public void sendMail() {
 		SimpleMailMessage message = new SimpleMailMessage();
-		message.setTo("jessica.gupta711@gmail.com");
+		message.setTo("Palash.Lambhate@dxc.com");
 		//message.setFrom("shalini@jc.com");
 		message.setSubject("Welcome!!");
-		message.setText("Hello Friends chai peelo");
+		message.setText("Test Email");
 		javaMailSender.send(message);
 	}
 }
